@@ -1,0 +1,53 @@
+1 Tvorbawebových stránek: #00d0ff světle modrá
+2 Vývoj a design her: #fd636b červená - #ff404a to 
+3 3D modelování: #3BE8B0 zelená
+4 Programování s LEGO: #b392ff fialová
+4 Programování v minecraftu: #b392ff fialová
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1185px;
+    }
+}
+
+Vizitka:
+        Zkusit vlnkový tvar
+
+        Zadní strana: Na střed velké logo do kruhu a jinak pattern s pozadím
+
+        Přední strana: Na levo dát proužek s kontaktama atd.. pozadí podle specializace
+                       
+                       Na střed nahoru dát kratší logo a nebo do pravého horního rohu
+                       Na střed dát název specializace (h1) pod to (h2) "Splashed akademie"
+                       Zkusit obrátit barvy na jiné variantě, kde bude barva na pozadí, podle specializace
+
+
+Specializace-header-banner: Nudle s osobami
+                            Pozadí podle barvy specializace
+                            Nahoru dát ikonku
+                            Pod to název specializace
+
+
+Plakát:
+        Změnit obrázek
+
+        Zkusit udělat variantu num 2
+       
+        Plakát vol.2: Na střed dát cákanec z banneru s postavou
+                      Pozadí zkusit dát oranžové a nebo nechat bílé
+                      Pod to nápis SPLASHED 
+                                   AKADEMIE
+
+        Plakát vol.3: Na pravou stranu dát cákanec z banneru
+                      Na levo dát nápis s názec specializace
+                      Levo nahoře logo
+                      Doprostřed dolu dát obdélník
+
+Rollup: Zkusit použít Specializace-header-banner
+        Dát tam víc cákanců a třeba prvky z vizitek
+        Proužek se specializacemi a jedna bude označená(Vybarvená)
+
+                
+
+
+                   
