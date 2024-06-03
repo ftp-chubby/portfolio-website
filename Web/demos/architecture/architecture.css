@@ -2,20 +2,24 @@
     Crafto - Architecture
 ====================================== */
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* variable */
 :root {     
     --base-color: #ffd000;
     --dark-gray:#303030;
-    --alt-font: 'Space Grotesk', sans-serif;
-    --primary-font: 'Inter', sans-serif;
+    --alt-font: 'Urbanist', sans-serif;
+    --primary-font: 'Atkinson Hyperlegible', sans-serif;
 } 
 html {
     overflow-x: hidden;
 }
 body{
     line-height: 30px;
+}
+
+/* bg gradient color */
+.bg-gradient-chablis-red-quartz-white {
+    background-image: linear-gradient(to right, #fce7e1, #fce7e1, #efe2ea, #dcdaf5, #dcdaf5);
 }
 /* reset */
 .word-break-normal {

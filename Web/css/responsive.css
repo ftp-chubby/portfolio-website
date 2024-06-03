@@ -21219,10 +21219,7 @@
   .tab-style-01 .nav-tabs > li.nav-item {
     margin-bottom: 15px;
   }
-  .tab-style-04 .nav-tabs {
-    display: inline-block;
-    width: 100%;
-  }
+
   .tab-style-04 .nav-tabs .nav-item {
     width: auto;
     display: table;
@@ -21440,7 +21437,7 @@
     padding: 0;
     display: block;
     margin-bottom: 5px;
-    width: 100%;
+    padding-top: 10%;
   }
   .sticky-image-distortion-wrapper .menu {
     padding: 130px 30px 30px 30px;

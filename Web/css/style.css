@@ -35,8 +35,8 @@ Table of contents
 /* ===================================
     01. Google font
 ====================================== */
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;600;700;800&display=swap');
 :root {
   --alt-font: "Plus Jakarta Sans", sans-serif;
   --primary-font: "Inter", sans-serif;
@@ -2582,7 +2582,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
   display: none;
 }
 .magic-drag-cursor #ball-cursor:before {
-  content: "< DRAG >";
+  content: "< POSUNOUT >";
   font-size: 14px;
   color: var(--white) !important;
   font-weight: 600;
@@ -9327,9 +9327,7 @@ button:focus {
 .grid.gutter-medium li {
   padding: 7px 7px;
 }
-.grid.gutter-large li {
-  padding: 10px 10px;
-}
+
 .grid.gutter-extra-large li {
   padding: 15px;
 }
@@ -12774,7 +12772,7 @@ blockquote footer {
   padding-left: 16px;
 }
 .list-style-04 li {
-  margin: 0 0 10px;
+  margin: 0 0 5px;
   list-style: disc;
 }
 /* List style 05 */
