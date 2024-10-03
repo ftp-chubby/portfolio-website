@@ -3,12 +3,14 @@
 ====================================== */
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 /* variable */
 :root {     
     --base-color: #ffd000;
     --dark-gray:#303030;
-    --alt-font: 'Urbanist', sans-serif;
-    --primary-font: 'Atkinson Hyperlegible', sans-serif;
+    --alt-font: 'Oswald', sans-serif;
+    --primary-font: 'Oswald', sans-serif;
 } 
 html {
     overflow-x: hidden;

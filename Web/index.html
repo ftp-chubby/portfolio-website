@@ -26,13 +26,13 @@
         <!-- start header -->
         <header> 
             <!-- start navigation -->
-            <nav class="navbar navbar-expand-lg header-transparent bg-transparent header-reverse" data-header-hover="light">
+            <nav class="navbar navbar-expand-lg header-reverse" data-header-hover="light">
                 <div class="container-fluid">
                     <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
                         <a class="navbar-brand" href="#">
-                            <img src="images/demo-business-logo-white.png" data-at2x="images/demo-business-logo-white@2x.png" alt="" class="default-logo">
-                            <img src="images/demo-business-logo-black.png" data-at2x="images/demo-business-logo-black@2x.png" alt="" class="alt-logo">
-                            <img src="images/demo-business-logo-black.png" data-at2x="images/demo-business-logo-black@2x.png" alt="" class="mobile-logo"> 
+                            <img src="images/demo-business-logo-white.png" data-at2x="images/demo-business-logo-white.png" alt="" class="default-logo">
+                            <img src="images/demo-business-logo-white.png" data-at2x="images/demo-business-logo-white.png" alt="" class="alt-logo">
+                            <img src="images/demo-business-logo-white.png" data-at2x="images/demo-business-logo-white.png" alt="" class="mobile-logo"> 
                         </a>
                     </div>
                     <div class="col-auto menu-order position-static">
@@ -43,7 +43,7 @@
                             <span class="navbar-toggler-line"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav"> 
-                            <ul class="navbar-nav alt-font"> 
+                            <ul class="navbar-nav alt-font text-uppercase"> 
                                 <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
                                     <a href="nase-sluzby.html" class="nav-link">Naše Služby</a>
@@ -65,12 +65,12 @@
                     </div>
                     <div class="col-auto col-lg-2 text-end d-none d-sm-flex"> 
                         <div class="header-icon">
-                            <div class="header-button"><a href="#contact-form" class="btn btn-very-small btn-white btn-box-shadow btn-round-edge left-icon text-transform-none popup-with-form"><i class="feather icon-feather-mail"></i>Poptávka</a></div>
+                            <div class="header-button"><a href="#contact-form" class="btn btn-small btn-white btn-box-shadow btn-round-edge left-icon text-transform-none popup-with-form"><i class="feather icon-feather-mail"></i>Poptávka</a></div>
                         </div>
                         <!-- start contact form -->
                         <div id="contact-form" class="container p-0 contact-form-style-01 position-relative text-center mfp-hide">
                             <div class="row g-0">
-                                <div class="col-lg-5 cover-background md-h-600px xs-h-400px" style="background-image:url('https://via.placeholder.com/1082x1082');"></div>
+                                <div class="col-lg-5 cover-background md-h-600px xs-h-400px" style="background-image:url(images/elektroinstalace_Nymburk_Sedláček_1080x1080.jpg);"></div>
                                 <div class="col-lg-7">
                                     <div class="p-15 lg-p-10 bg-white">
                                         <span class="mb-10px">Hledáte elektroinstalace?</span>
@@ -107,65 +107,76 @@
             <!-- end navigation -->
         </header>
         <!-- end header --> 
-        <!-- start section -->
-        <section class="section-dark p-0 bg-dark-gray"> 
-            <div class="swiper lg-no-parallax magic-cursor  full-screen md-h-600px sm-h-500px ipad-top-space-margin swiper-light-pagination" data-slider-options='{ "slidesPerView": 1, "loop": true, "parallax": true, "speed": 1000, "pagination": { "el": ".swiper-pagination-bullets", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 4000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
+                 <!-- start section -->
+        <section class="p-0 bg-dark-gray">
+            <div class="swiper lg-no-parallax full-screen md-h-600px sm-h-500px swiper-light-pagination ipad-top-space-margin magic-cursor drag-cursor" data-slider-options='{ "slidesPerView": 1, "loop": true, "parallax": true, "speed": 1200, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "pagination": { "el": ".swiper-pagination-bullets", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
                 <div class="swiper-wrapper">
                     <!-- start slider item -->
                     <div class="swiper-slide overflow-hidden">
-                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" data-swiper-parallax="500" style="background-image:url('https://i.ibb.co/LkZcKjj/IMG-20240124-114555-1.jpg');">
-                            <div class="opacity-light bg-gradient-sherpa-blue-black"></div>
-                            <div class="container h-100" data-swiper-parallax="-500">
-                                <div class="row align-items-center h-100">
-                                    <div class="col-xl-7 col-lg-8 col-md-10 position-relative text-white text-center text-md-start" data-anime='{ "el": "childs", "translateX": [100, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                        <div>
-                                            <span class="fs-20 opacity-6 mb-25px sm-mb-15px d-inline-block fw-300">Kulturní dům Loukonosy
-
-                                            </span>
+                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url(images/elektroinstalace_Nymburk_Sedláček_Kuchyň.jpg);" data-swiper-parallax="1000">
+                            <div class="opacity-light bg-gradient-black-green"></div>
+                            <div class="container h-100" data-swiper-parallax="-300">
+                                <div class="row align-items-center justify-content-center h-100 text-center">
+                                    <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
+                                        <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Chvalovice</span></span>
+                                        <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Kuchyňské Elektroinstalace"] }'></span>
+                                        <div data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 1000, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                            <a href="#" class="btn btn-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow lg-mb-15px md-mx-auto">Více o projektu<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            <a href="#" class="btn btn-large fw-600 btn-base-color btn-rounded btn-hover-animation lg-mb-15px md-mx-auto">
+                                                <span> 
+                                                    <span class="btn-text">Poptávka</span> 
+                                                    <span class="btn-icon"><i class="feather icon-feather-mail"></i></span> 
+                                                </span>
+                                            </a>   
                                         </div>
-                                        <h1 class="alt-font w-90 xl-w-100 text-shadow-double-large ls-minus-2px">Profesionální elektroinstalace na <span class="fw-600">na míru.</span></h1>
-                                        <a href="index.html" target="_blank" class="btn btn-extra-large btn-rounded with-rounded btn-base-color btn-box-shadow box-shadow-extra-large mt-20px sm-mt-0">Poptat se<span class="bg-white text-base-color"><i class="fas fa-arrow-right"></i></span></a>
                                     </div>
+                                </div> 
+                            </div>   
+                        </div>
+                    </div>
+                    <!-- end slider item -->
+                    <!-- start slider item -->
+                    <div class="swiper-slide overflow-hidden">
+                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url(images/elektroinstalace_Nymburk_Sedláček_Kuchyň_Podhled.jpg);" data-swiper-parallax="1000" >
+                            <div class="opacity-light bg-gradient-black-green"></div>
+                            <div class="container h-100" data-swiper-parallax="-300">
+                                <div class="row align-items-center justify-content-center h-100 text-center">
+                                    <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
+                                        <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Kulturní dům Loukonosy</span></span>
+                                        <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Domovní Elektroinstalace"] }'></span>
+                                        <span data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 500, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                            <a href="#" class="btn btn-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow lg-mb-15px md-mx-auto">Více o projektu<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            <a href="#" class="btn btn-large fw-600 btn-base-color btn-rounded btn-hover-animation lg-mb-15px md-mx-auto">
+                                                <span> 
+                                                    <span class="btn-text">Poptávka</span> 
+                                                    <span class="btn-icon"><i class="feather icon-feather-mail"></i></span> 
+                                                </span>
+                                            </a>   
+                                        </span>
+                                    </div> 
                                 </div>
-                                <div class="position-absolute bottom-minus-45px" data-anime='{ "translateY": [150, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="alt-font number text-base-color opacity-3 fs-190 fw-600 ls-minus-5px">01</span></div>
                             </div>
                         </div>
                     </div>
                     <!-- end slider item -->
                     <!-- start slider item -->
                     <div class="swiper-slide overflow-hidden">
-                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" data-swiper-parallax="500" style="background-image:url('https://i.ibb.co/FJ7QhcT/IMG-20230504-124555.jpg');">
-                            <div class="opacity-light bg-gradient-sherpa-blue-black"></div>
-                            <div class="container h-100" data-swiper-parallax="-500">
-                                <div class="row align-items-center h-100">
-                                    <div class="col-xl-7 col-lg-8 col-md-10 position-relative text-white text-center text-md-start" data-anime='{ "el": "childs", "translateX": [100, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'> 
-                                        <div>
-                                            <span class="fs-20 opacity-6 mb-25px sm-mb-15px d-inline-block fw-300">Hromosvod ČOV Loučeň
-                                            </span>
-                                        </div>
-                                        <h1 class="alt-font w-90 xl-w-100 text-shadow-double-large ls-minus-2px">Poradenská činnost a revize <span class="fw-600">elektrických sítí.</span></h1> 
-                                        <a href="index.html" target="_blank" class="btn btn-extra-large btn-rounded with-rounded btn-base-color btn-box-shadow box-shadow-extra-large mt-20px sm-mt-0">Poptat se<span class="bg-white text-base-color"><i class="fa-solid fa-arrow-right"></i></span></a>
-                                    </div>
-                                    <div class="position-absolute bottom-minus-45px" data-anime='{ "translateY": [150, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="alt-font number text-base-color opacity-3 fs-190 fw-600 ls-minus-5px">02</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end slider item -->
-                    <!-- start slider item -->
-                    <div class="swiper-slide overflow-hidden">
-                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" data-swiper-parallax="500" style="background-image:url('https://i.ibb.co/v4cbFjq/IMG-20220824-184009-1.jpg');">
-                            <div class="opacity-light bg-gradient-sherpa-blue-black"></div>
-                            <div class="container h-100" data-swiper-parallax="-500">
-                                <div class="row align-items-center h-100">
-                                    <div class="col-xl-7 col-lg-8 col-md-10 position-relative text-white text-center text-md-start" data-anime='{ "el": "childs", "translateX": [100, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                        <div>
-                                            <span class="fs-20 opacity-6 mb-25px sm-mb-15px d-inline-block fw-300">Rozvaděč bytový Nymburk ul. K Nádraží</span>
-                                        </div>
-                                        <h1 class="alt-font w-90 xl-w-100 text-shadow-double-large ls-minus-2px">Moderní zabezpečovací a kamerové <span class="fw-600">systémy.</span></h1>
-                                        <a href="index.html" target="_blank" class="btn btn-extra-large btn-rounded with-rounded btn-base-color btn-box-shadow box-shadow-extra-large mt-20px sm-mt-0">Poptat se<span class="bg-white text-base-color"><i class="fa-solid fa-arrow-right"></i></span></a>
-                                    </div>
-                                    <div class="position-absolute bottom-minus-45px" data-anime='{ "translateY": [150, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="alt-font number text-base-color opacity-3 fs-190 fw-600 ls-minus-5px">03</span></div>
+                        <div class="cover-background position-absolute top-0 start-0 w-100 h-100" style="background-image:url(images/elektroinstalace_Nymburk_Sedláček_Bazénové_Technologie.jpg);" data-swiper-parallax="1000">
+                            <div class="opacity-light bg-gradient-black-green"></div>
+                            <div class="container h-100" data-swiper-parallax="-300">
+                                <div class="row align-items-center justify-content-center h-100 text-center">
+                                    <div class="col-xl-7 col-lg-9 col-md-10 position-relative text-white">
+                                        <span data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,0.7], "duration": 1500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'><span class="fw-300 fs-22 opacity-7 mb-15px d-inline-block">Poděbrady</span></span>
+                                        <span class="opacity-7 fs-80 xs-fs-60 alt-font fw-700 text-shadow-extra-large ls-minus-2px mb-45px sm-mb-30px xs-mb-20px d-inline-block swiper-parallax-fancy-text" data-fancy-text='{ "effect": "rotate", "string": ["Příprava Bazénové Technologie"] }'></span>
+                                        <span data-anime='{ "el": "childs", "translateY": [80, 0], "opacity": [0,1], "duration": 600, "delay": 500, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                            <a href="#" class="btn btn-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow lg-mb-15px md-mx-auto">Více o projektu<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                            <a href="#" class="btn btn-large fw-600 btn-base-color btn-rounded btn-hover-animation lg-mb-15px md-mx-auto">
+                                                <span> 
+                                                    <span class="btn-text">Poptávka</span> 
+                                                    <span class="btn-icon"><i class="feather icon-feather-mail"></i></span> 
+                                                </span>
+                                            </a>   
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -174,7 +185,7 @@
                 </div>
                 <!-- start slider pagination -->
                 <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
-                <!-- end slider pagination -->
+                <!-- end slider pagination --> 
                 <!-- start slider navigation -->
                 <!--<div class="slider-one-slide-prev-1 icon-extra-large text-white swiper-button-prev slider-navigation-style-06 d-none d-sm-inline-block"><i class="line-icon-Arrow-OutLeft"></i></div>
                     <div class="slider-one-slide-next-1 icon-extra-large text-white swiper-button-next slider-navigation-style-06 d-none d-sm-inline-block"><i class="line-icon-Arrow-OutRight"></i></div>-->
@@ -188,9 +199,9 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 md-mb-50px position-relative" data-anime='{ "effect": "slide", "color": "#262b35", "direction":"lr", "easing": "easeOutQuad", "delay":50}'>
                         <figure class="position-relative mb-0 overflow-hidden border-radius-6px"> 
-                            <img src="https://via.placeholder.com/610x610" alt="" class="w-100"> 
+                            <img src="images/elektroinstalace_Nymburk_Sedláček_610x610.jpg" alt="" class="w-100"> 
                             <figcaption class="position-absolute border-radius-left-8px bg-base-color right-0px bottom-0px p-45px last-paragraph-no-margin">
-                                <i class="feather icon-feather-home icon-medium text-white mb-15px d-block"></i>
+                                <i class="line-icon-Electricity icon-medium text-white mb-15px d-block"></i>
                                 <h4 class="alt-font fw-700 text-white mb-0 d-block">150+</h4>
                                 <p class="text-white">Elektroinstalací</p>
                             </figcaption>
@@ -255,17 +266,37 @@
                 </div>
                 <div class="row align-items-center mb-9">
                     <div class="col-md-12 position-relative" data-anime='{ "translateX": [150, 0], "opacity": [0,1], "duration": 1200, "delay": 100, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <div class="outside-box-right-30 sm-outside-box-right-0">
+                        <div class="sm-outside-box-right-10">
                             <div class="swiper slider-three-slide magic-cursor drag-cursor" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 35, "loop": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true, "dynamicBullets": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 4 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 3 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
                                 <div class="swiper-wrapper">
                                     <!-- start content carousal item --> 
                                     <div class="swiper-slide"> 
                                         <div class="interactive-banner-style-06">                                    
                                             <div class="interactive-banners-image">
-                                                <img src="https://i.ibb.co/DCp0wy2/IMG-20230325-195505-1.jpg" alt="" />
+                                                <img src="images/Rozvodnice kuchyň.jpg" alt="" />
                                                 <div class="overlay-bg bg-gradient-dark-transparent opacity-light"></div>
                                                 <a href="demo-architecture-services.html" class="banners-icon text-white icon-hover-base-color position-absolute top-60px left-60px lg-top-30px lg-left-30px">
-                                                    <i class="line-icon-Structure icon-large"></i>
+                                                    <i class="line-icon-Electricity icon-large"></i>
+                                                </a>
+                                            </div>
+                                            <div class="interactive-banners-content p-60px lg-p-30px"> 
+                                                <div class="h-100 w-100 last-paragraph-no-margin"> 
+                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Nymburk ul. Jičínská</a>
+                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Rozvodnice.</p>
+                                                </div> 
+                                            </div>
+                                            <div class="box-overlay bg-gradient-dark-transparent"></div>
+                                        </div>
+                                    </div>
+                                    <!-- end content carousal item -->
+                                    <!-- start content carousal item --> 
+                                    <div class="swiper-slide">
+                                        <div class="interactive-banner-style-06">                                    
+                                            <div class="interactive-banners-image">
+                                                <img src="images/Hromosvod.jpg" alt="" />
+                                                <div class="overlay-bg bg-gradient-dark-transparent opacity-light"></div>
+                                                <a href="demo-architecture-services.html" class="banners-icon text-white icon-hover-base-color position-absolute top-60px left-60px lg-top-30px lg-left-30px">
+                                                    <i class="line-icon-Home-5 icon-large"></i>
                                                 </a>
                                             </div>
                                             <div class="interactive-banners-content p-60px lg-p-30px"> 
@@ -282,16 +313,16 @@
                                     <div class="swiper-slide">
                                         <div class="interactive-banner-style-06">                                    
                                             <div class="interactive-banners-image">
-                                                <img src="https://i.ibb.co/b3NbRdW/IMG-20220922-125239-1.jpg" alt="" />
+                                                <img src="images/Výměna a instalace rozvaděče.jpg" alt="" />
                                                 <div class="overlay-bg bg-gradient-dark-transparent opacity-light"></div>
-                                                <a href="demo-architecture-services.html" class="banners-icon text-white icon-hover-base-color position-absolute top-60px left-60px lg-top-30px lg-left-30px">
-                                                    <i class="line-icon-Cursor-Select icon-large"></i>
+                                                <a href="demo-architecture-services.html" class="banners-icon icon-hover-base-color text-white position-absolute top-60px left-60px lg-top-30px lg-left-30px">
+                                                    <i class="line-icon-Wrench icon-large"></i>
                                                 </a>
                                             </div>
                                             <div class="interactive-banners-content p-60px lg-p-30px"> 
                                                 <div class="h-100 w-100 last-paragraph-no-margin"> 
-                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Nymburk ul. K Nádraží</a>
-                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Rozvody.</p>
+                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Sadská</a>
+                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Výměna a instalace elektroměrového a domovního rozvaděče.</p>
                                                 </div> 
                                             </div>
                                             <div class="box-overlay bg-gradient-dark-transparent"></div>
@@ -302,36 +333,16 @@
                                     <div class="swiper-slide">
                                         <div class="interactive-banner-style-06">                                    
                                             <div class="interactive-banners-image">
-                                                <img src="https://via.placeholder.com/410x505" alt="" />
+                                                <img src="images/Bazénové technologie.jpg" alt="" />
                                                 <div class="overlay-bg bg-gradient-dark-transparent opacity-light"></div>
                                                 <a href="demo-architecture-services.html" class="banners-icon icon-hover-base-color text-white position-absolute top-60px left-60px lg-top-30px lg-left-30px">
-                                                    <i class="line-icon-Full-View icon-large"></i>
+                                                    <i class="line-icon-Speach-BubbleDialog icon-large"></i>
                                                 </a>
                                             </div>
                                             <div class="interactive-banners-content p-60px lg-p-30px"> 
                                                 <div class="h-100 w-100 last-paragraph-no-margin"> 
-                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Kulturní dům Loukonosy</a>
-                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Silno/slaboproudové instalace.</p>
-                                                </div> 
-                                            </div>
-                                            <div class="box-overlay bg-gradient-dark-transparent"></div>
-                                        </div>
-                                    </div>
-                                    <!-- end content carousal item -->
-                                    <!-- start content carousal item --> 
-                                    <div class="swiper-slide">
-                                        <div class="interactive-banner-style-06">                                    
-                                            <div class="interactive-banners-image">
-                                                <img src="https://via.placeholder.com/410x505" alt="" />
-                                                <div class="overlay-bg bg-gradient-dark-transparent opacity-light"></div>
-                                                <a href="demo-architecture-services.html" class="banners-icon icon-hover-base-color text-white position-absolute top-60px left-60px lg-top-30px lg-left-30px">
-                                                    <i class="line-icon-Duplicate-Layer icon-large"></i>
-                                                </a>
-                                            </div>
-                                            <div class="interactive-banners-content p-60px lg-p-30px"> 
-                                                <div class="h-100 w-100 last-paragraph-no-margin"> 
-                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Chvalovice</a>
-                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Kompletní domovní elektroinstalace.</p>
+                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Poděbrady ul. Seifertova</a>
+                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Příprava bazénové technologie.</p>
                                                 </div> 
                                             </div>
                                             <div class="box-overlay bg-gradient-dark-transparent"></div>
@@ -342,16 +353,16 @@
                                     <div class="swiper-slide"> 
                                         <div class="interactive-banner-style-06">                                    
                                             <div class="interactive-banners-image">
-                                                <img src="https://via.placeholder.com/410x505" alt="" />
+                                                <img src="images/Zapojení ponorného čerpadla.jpg" alt="" />
                                                 <div class="overlay-bg bg-gradient-dark-transparent opacity-light"></div>
                                                 <a href="demo-architecture-services.html" class="banners-icon text-white icon-hover-base-color position-absolute top-60px left-60px lg-top-30px lg-left-30px">
-                                                    <i class="line-icon-Structure icon-large"></i>
+                                                    <i class="line-icon-Security-Camera icon-large"></i>
                                                 </a>
                                             </div>
                                             <div class="interactive-banners-content p-60px lg-p-30px"> 
                                                 <div class="h-100 w-100 last-paragraph-no-margin"> 
-                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Kuchyň Nymburk ul. Jičínská</a>
-                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Bytové rozvaděče.</p>
+                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Chatinka Kersku</a>
+                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Instalace zabezpečovacího kamerového systému.</p>
                                                 </div> 
                                             </div>
                                             <div class="box-overlay bg-gradient-dark-transparent"></div>
@@ -362,7 +373,7 @@
                                     <div class="swiper-slide">
                                         <div class="interactive-banner-style-06">                                    
                                             <div class="interactive-banners-image">
-                                                <img src="https://via.placeholder.com/410x505" alt="" />
+                                                <img src="images/Výměna elektroměrové skříně.jpg" alt="" />
                                                 <div class="overlay-bg bg-gradient-dark-transparent opacity-light"></div>
                                                 <a href="demo-architecture-services.html" class="banners-icon text-white icon-hover-base-color position-absolute top-60px left-60px lg-top-30px lg-left-30px">
                                                     <i class="line-icon-Cursor-Select icon-large"></i>
@@ -370,8 +381,8 @@
                                             </div>
                                             <div class="interactive-banners-content p-60px lg-p-30px"> 
                                                 <div class="h-100 w-100 last-paragraph-no-margin"> 
-                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">ElektroServis CZ s.r.o.</a>
-                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Komplexní elektroinstalace.</p>
+                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Čelákovice</a>
+                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Výměna elektroměrové skříně v rodinném domě.</p>
                                                 </div> 
                                             </div>
                                             <div class="box-overlay bg-gradient-dark-transparent"></div>
@@ -382,16 +393,16 @@
                                     <div class="swiper-slide">
                                         <div class="interactive-banner-style-06">                                    
                                             <div class="interactive-banners-image">
-                                                <img src="https://via.placeholder.com/410x505" alt="" />
+                                                <img src="images/Bytový rozvaděč.jpg" alt="" />
                                                 <div class="overlay-bg bg-gradient-dark-transparent opacity-light"></div>
                                                 <a href="demo-architecture-services.html" class="banners-icon icon-hover-base-color text-white position-absolute top-60px left-60px lg-top-30px lg-left-30px">
-                                                    <i class="line-icon-Full-View icon-large"></i>
+                                                    <i class="line-icon-Wrench icon-large"></i>
                                                 </a>
                                             </div>
                                             <div class="interactive-banners-content p-60px lg-p-30px"> 
                                                 <div class="h-100 w-100 last-paragraph-no-margin"> 
-                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Bezpečnostní technologie</a>
-                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Datové rozvody a poradenská činnost v oblasti bezpečnosti.</p>
+                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Nymburk ul. K Nádraží</a>
+                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Bytový rozvaděč.</p>
                                                 </div> 
                                             </div>
                                             <div class="box-overlay bg-gradient-dark-transparent"></div>
@@ -402,16 +413,16 @@
                                     <div class="swiper-slide">
                                         <div class="interactive-banner-style-06">                                    
                                             <div class="interactive-banners-image">
-                                                <img src="https://via.placeholder.com/410x505" alt="" />
+                                                <img src="images/Kuchyň.jpg" alt="" />
                                                 <div class="overlay-bg bg-gradient-dark-transparent opacity-light"></div>
                                                 <a href="demo-architecture-services.html" class="banners-icon icon-hover-base-color text-white position-absolute top-60px left-60px lg-top-30px lg-left-30px">
-                                                    <i class="line-icon-Duplicate-Layer icon-large"></i>
+                                                    <i class="line-icon-Home-5 icon-large"></i>
                                                 </a>
                                             </div>
                                             <div class="interactive-banners-content p-60px lg-p-30px"> 
                                                 <div class="h-100 w-100 last-paragraph-no-margin"> 
-                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Energetika Plaza</a>
-                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Silnoproudé instalace a rozvody datové a televizní sítě</p>
+                                                    <a href="demo-architecture-services.html" class="fs-22 d-block text-white mb-10px fw-500">Chvalovice</a>
+                                                    <p class="interactive-banners-content-text w-95 lg-w-100">Kuchyňské elektroinstalace</p>
                                                 </div> 
                                             </div>
                                             <div class="box-overlay bg-gradient-dark-transparent"></div>
@@ -424,6 +435,98 @@
                         <!-- start slider pagination -->
                         <!--<div class="swiper-pagination slider-four-slide-pagination-1 swiper-pagination-style-2 swiper-pagination-clickable swiper-pagination-bullets"></div>-->
                         <!-- end slider pagination --> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+                 <!-- start section -->
+        <section class="bg-gradient-solitude-blue-transparent">
+            <div class="container"> 
+                <div class="row align-items-center justify-content-center" data-anime='{ "el": "childs", "translateX": [0, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+                    <div class="col-xl-5 col-lg-7 col-md-10 position-relative pe-xl-0 text-center text-xl-start lg-mb-10px">
+                        <span class="fs-19 lh-20 ls-0px fw-600 text-base-color d-inline-block text-decoration-line-bottom-medium border-color-charcoal-grey mb-20px">Hodnocení klientů</span>
+                        <h2 class="fw-700 ls-minus-1px text-dark-gray mb-10px">Co o nás říkají zákazníci.</h2>
+                        <div class="d-block mb-25px"> 
+                            Na základě hodnocení z: <a href="https://g.co/kgs/mmC1bdS" target="_blank"><img src="images/reviewsio.svg" class="h-20px align-middle ms-5px" alt=""></a>
+                        </div>
+                        <div class="d-flex justify-content-center justify-content-xl-start">
+                            <!-- start slider navigation -->
+                            <div class="slider-one-slide-prev-02 text-dark-gray swiper-button-prev slider-navigation-style-04 border border-1 border-color-transparent-dark-very-light" tabindex="0" role="button" aria-label="Previous slide"><i class="bi bi-arrow-left-short icon-very-medium"></i></div>
+                            <div class="slider-one-slide-next-02 text-dark-gray swiper-button-next slider-navigation-style-04 border border-1 border-color-transparent-dark-very-light" tabindex="0" role="button" aria-label="Next slide"><i class="bi bi-arrow-right-short icon-very-medium"></i></div>
+                            <!-- end slider navigation -->
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-10 overflow-hidden">
+                        <div class="outside-box-right-15 xl-outside-box-right-20 sm-outside-box-right-0">
+                            <div class="swiper slider-one-slide slider-shadow-right sm-slider-shadow-none magic-cursor overflow-visible ps-25px sm-p-0" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 35, "loop": true, "pagination": { "el": ".slider-one-slide-pagination", "clickable": true, "dynamicBullets": false }, "navigation": { "nextEl": ".slider-one-slide-next-02", "prevEl": ".slider-one-slide-prev-02" }, "autoplay": { "delay": 6000, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "992": { "slidesPerView": 2 }, "768": { "slidesPerView": 2 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
+                                <div class="swiper-wrapper pt-30px"> 
+                                    <!-- start review item -->
+                                    <div class="swiper-slide review-style-06">
+                                        <div class="d-flex justify-content-center h-100 flex-column bg-white box-shadow-medium p-45px md-p-35px border-radius-6px last-paragraph-no-margin">
+                                            <div class="d-flex align-items-center">
+                                                <img class="rounded-circle w-90px h-90px me-20px" src="images/Hodnocení 1.jpg" alt="">
+                                                <div class="d-inline-block align-middle last-paragraph-no-margin">
+                                                    <div class="fs-18 fw-600 text-dark-gray">Chatinka Kersku</div>
+                                                </div>
+                                                <div class="border-radius-30px bg-yellow ps-15px pe-15px fs-14 fw-700 text-dark-gray d-inline-block align-middle ms-auto md-position-absolute md-right-15px md-top-15px"><i class="fa-solid fa-star me-5px"></i>5.0</div>
+                                            </div>
+                                            <p class="mt-20px">Pan Sedláček nám před týdnem instaloval bezpečnostní kamerový systém, o vše se postaral a sám navrhl nejvhodnější řešení, aniž bychom museli nastudovávat parametry jednotlivých produktů. Instalace proběhla rychle a precizně, s odborným vysvětlením. Velká spokojenost. Moc děkujeme.</p>
+                                        </div>
+                                    </div>
+                                    <!-- end review item -->
+                                    <!-- start review item -->
+                                    <div class="swiper-slide review-style-06">
+                                        <div class="d-flex justify-content-center h-100 flex-column bg-white box-shadow-medium p-45px md-p-35px border-radius-6px last-paragraph-no-margin">
+                                            <div class="d-flex align-items-center">
+                                                <img class="rounded-circle w-90px h-90px me-20px" src="images/Hodnocení 2.jpg" alt="">
+                                                <div class="d-inline-block align-middle last-paragraph-no-margin">
+                                                    <div class="fs-18 fw-600 text-dark-gray">Eva P.</div>
+                                                    
+                                                </div>
+                                                <div class="border-radius-30px bg-yellow ps-15px pe-15px fs-14 fw-700 text-dark-gray d-inline-block align-middle ms-auto md-position-absolute md-right-15px md-top-15px"><i class="fa-solid fa-star me-5px"></i>5.0</div>
+                                            </div>
+                                            <p class="mt-20px">Skvělá zkušenost, příjemné jednání, ochota a flexibilita přijet v brzkém termínu, spolehlivost a precizní elektroinstalační práce na rekreační chatě. Děkuji moc, pane Sedláčku, a všem vřele doporučuji!</p>
+                                        </div>
+                                    </div> 
+                                    <!-- end review item -->
+                                    <!-- start review item -->
+                                    <div class="swiper-slide review-style-06">
+                                        <div class="d-flex justify-content-center h-100 flex-column bg-white box-shadow-medium p-45px md-p-35px border-radius-6px last-paragraph-no-margin">
+                                            <div class="d-flex align-items-center">
+                                                <img class="rounded-circle w-90px h-90px me-20px" src="images/Hodnocení 3.jpg" alt="">
+                                                <div class="d-inline-block align-middle last-paragraph-no-margin">
+                                                    <div class="fs-18 fw-600 text-dark-gray">Libor S.</div>
+                                                </div>
+                                                <div class="border-radius-30px bg-yellow ps-15px pe-15px fs-14 fw-700 text-dark-gray d-inline-block align-middle ms-auto md-position-absolute md-right-15px md-top-15px"><i class="fa-solid fa-star me-5px"></i>5.0</div>
+                                            </div>
+                                            <p class="mt-20px">Pan Sedláček si na řešení deinstalace a znovuinstalace zásuvek, vypínačů a digestoře udělal čas v řádu jednotek dnů (telefonická domluva ve čtvrtek 1.8.2024), odpovídal na telefon rychle, věcně.  Práci odvedl velmi dobře, poradil si...                         <a href="#" class="btn btn-link btn-hover-animation-switch text-base-color">
+                                                <span>
+                                                    <span class="btn-text">Více</span>
+                                                    <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                </span> 
+                                            </a></p>                         
+                                        </div>
+                                    </div>
+                                    <!-- end review item -->
+                                    <!-- start review item -->
+                                    <div class="swiper-slide review-style-06">
+                                        <div class="d-flex justify-content-center h-100 flex-column bg-white box-shadow-medium p-45px md-p-35px border-radius-6px last-paragraph-no-margin">
+                                            <div class="d-flex align-items-center">
+                                                <img class="rounded-circle w-90px h-90px me-20px" src="images/Hodnocení 4.jpg" alt="">
+                                                <div class="d-inline-block align-middle last-paragraph-no-margin">
+                                                    <div class="fs-18 fw-600 text-dark-gray">Radek R.</div>
+                                                </div>
+                                                <div class="border-radius-30px bg-yellow ps-15px pe-15px fs-14 fw-700 text-dark-gray d-inline-block align-middle ms-auto md-position-absolute md-right-15px md-top-15px"><i class="fa-solid fa-star me-5px"></i>5.0</div>
+                                            </div>
+                                            <p class="mt-20px">Když si dovolíte změnit dodavatele elektřiny a opustit ČEZ, najednou máte spoustu kontrol hodin, objeví se závady, které léta nikomu nevadilo atd. A právě s tím mi pomohl p.Elektrikař, hned pochopil problém,dorazil v krátkém čase, opravil, a za velice rozumnou cenu. Maximální spokojenost, doporučuji.</p>
+                                        </div>
+                                    </div> 
+                                    <!-- end review item --> 
+                                </div>  
+                            </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -519,7 +622,7 @@
                     <!-- start footer column -->
                     <div class="col-lg-3 col-sm-6 last-paragraph-no-margin text-center text-sm-start md-mb-30px">
                         <span class="text-white d-block fs-12 fw-600 ls-2px text-uppercase">Elektroinstalace - Nymburk</span>
-                        <p class="w-80 lg-w-95 md-w-70 sm-w-85 xs-mx-auto text-medium-gray fs-15 lh-28">Vítkovická 2042</p>
+                        <p class="w-80 lg-w-95 md-w-70 sm-w-85 xs-mx-auto text-medium-gray fs-15 lh-28">IČO: 08258007</p>
                     </div>
                     <!-- end footer column -->  
                     <div class="col-lg-5 col-sm-6 last-paragraph-no-margin ms-auto text-center text-sm-start text-lg-end fs-19"> 

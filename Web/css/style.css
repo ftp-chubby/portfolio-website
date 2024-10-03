@@ -1448,7 +1448,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
   border-color: rgba(35, 35, 35, 0.15) !important;
 }
 .hover-box.dark-hover:hover a, .hover-box.dark-hover:hover p, .hover-box.dark-hover:hover span, .hover-box.dark-hover:hover .btn, .hover-box.dark-hover:hover i, .hover-box.dark-hover:hover b, .hover-box.dark-hover:hover u, .hover-box.dark-hover:hover p, .hover-box.dark-hover:hover h1, .hover-box.dark-hover:hover h2, .hover-box.dark-hover:hover h3, .hover-box.dark-hover:hover h4, .hover-box.dark-hover:hover h5, .hover-box.dark-hover:hover h6 {
-  color: var(--white) !important;
+  color: black;
   -webkit-text-stroke-color: var(--white);
 }
 .hover-box.dark-hover:hover [class*=separator-line] {
@@ -6776,6 +6776,10 @@ header .navbar {
   right: 0;
   left: 0;
   z-index: 99;
+  background-color: rgba(0, 0, 0, 0.75);
+box-shadow: none;
+backdrop-filter: blur(10px);
+
 }
 header .navbar [class*=col-] {
   padding: 0 15px;
@@ -6844,7 +6848,7 @@ header.sticky .header-light:not(.disable-fixed) {
 header.sticky.sticky-active .header-reverse {
   -webkit-transform: translateY(0);
   transform: translateY(0);
-  border-color: transparent !important;
+  
 }
 header.sticky.sticky-active .header-reverse.glass-effect {
   -webkit-backdrop-filter: blur(5px);
@@ -6903,12 +6907,9 @@ header.sticky.sticky-active [data-header-hover=dark] .header-language-icon .head
   color: var(--white);
   opacity: 1;
 }
-header.sticky.sticky-active [data-header-hover=light] {
-  background-color: var(--white) !important;
-  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
-}
+
 header.sticky.sticky-active [data-header-hover=light] .navbar-nav .nav-link {
-  color: var(--dark-gray);
+  color: #999999;
 }
 header.sticky.sticky-active [data-header-hover=light] .icon > a {
   color: var(--dark-gray);
@@ -7106,7 +7107,7 @@ header.sticky .navbar.disable-fixed {
   opacity: 0.6;
 }
 .navbar .navbar-nav .nav-link {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   padding: 10px 20px;
   position: relative;
@@ -7115,7 +7116,7 @@ header.sticky .navbar.disable-fixed {
   word-break: normal;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: var(--white);
+  color: #999999;
 }
 .navbar .navbar-nav .nav-link .label {
   display: inline-block;

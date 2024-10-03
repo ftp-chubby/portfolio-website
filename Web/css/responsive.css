@@ -3433,7 +3433,8 @@
     margin-right: -7vw;
   }
   .sm-outside-box-right-10 {
-    margin-right: -10vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
   }
   .sm-outside-box-right-15 {
     margin-right: -15vw;
